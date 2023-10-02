@@ -1,0 +1,4 @@
+mols2grid==2.0.0
+pandas==2.0.3
+streamlit==1.27.1
+rdkit==2023.3.3
