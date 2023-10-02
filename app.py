@@ -3,7 +3,7 @@ Docker Container: https://hub.docker.com/r/continuumio/anaconda3
 RDKit Installation: https://www.rdkit.org/docs/Install.html
 """
 import subprocess
-p = subprocess.run("sudo apt-get install libxrender1", shell=True)
+p = subprocess.run("sudo apt-get install libxrender", shell=True)
 
 import mols2grid
 import pandas as pd
